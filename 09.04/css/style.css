@@ -1,0 +1,106 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+
+}
+.pano{
+	position: fixed;
+	width: 200px;
+	height: 50px;
+	bottom: 0;
+	right: 30px;
+	z-index: 999999;
+	background-color: #333;
+}
+
+.pano h3{
+	text-align: center;
+	color:white;
+	font-family: 'Hi Melody', cursive;
+}
+
+
+.pot{
+	width:800px;
+	position: relative;
+	display: inline-block;
+	height: 30px;
+	background-color: green;
+	color:#333;
+}
+
+.pot h3{
+	float:left;
+	margin-left: 20px;
+	display: inline-block;
+	font-family: 'Hi Melody', cursive;
+}
+
+.pot button{
+	float: right;
+	width: 37px;
+	font-size: 1.2em;
+	margin-left: 20px;
+	border-color: green;
+	background-color: green;
+	font-family: 'Hi Melody', cursive;
+}
+
+.speech {
+	display: none;
+	width:800px;
+	min-height: 500px;
+	margin:20px auto;
+	background-color: #333;
+
+}
+
+.col ul{
+	background: #333;
+	list-style-type: none;
+	color:white;
+	margin-left: 10px;
+	font-family: 'Poor Story', cursive;
+	font-size: 1em;
+
+}
+
+
+.user{
+	text-align: right;
+	margin-right: 10px;
+}
+
+
+.speech img {
+	float: left;
+	border-radius: 100%;
+	width: 80px;
+	height: 80px;
+}
+.speech h4{
+	font-size: 1em;
+	display: inline-block;
+	margin-top: 11%;
+    margin-left: -77px;
+	color: white;
+	background: none;
+}
+
+
+
+.speech2 h4{
+	display: inline-block;
+}
+
+
+.col {
+	margin-top: 50px;
+
+}
+
+.btn{
+	background-color: #333;
+	border-color: #333;
+}
